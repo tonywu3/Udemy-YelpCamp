@@ -9,6 +9,9 @@
                     <input class="form-control" type="text" name="camp[name]" value="<%= campground.name%>"></input>
                 </div>
                 <div class="form-group">
+                    <input class="form-control" type="number" name="camp[price]" value="<%= campground.price%>" min="0.01" step=".01"></input>
+                </div>
+                <div class="form-group">
                     <input class="form-control" type="text" name="camp[description]" value="<%= campground.description%>"></input>
                 </div>
                 <div class="form-group">
